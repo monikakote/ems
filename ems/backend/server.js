@@ -6,7 +6,7 @@ require('dotenv').config();
 const app = express();
 
 app.use(cors({ 
-  origin: ['https://employeemanagementsystem-1-wai4.onrender.com', 'http://localhost:5173'], 
+  origin: 'https://ems-12.onrender.com', // Yahan apne naye frontend ki link dalein
   credentials: true 
 }));
 
